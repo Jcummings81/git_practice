@@ -1,9 +1,6 @@
-<<<<<<< HEAD
-require_relative 'Gemfile'
-=======
+
 require 'colorize'
 require_relative 'git'
->>>>>>> my_feature
 
 class Main
   include Git
