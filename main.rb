@@ -1,4 +1,4 @@
-include Gemfile
+require_relative 'Gemfile'
 
 def puts_git(cmd)
     puts "git #{cmd} -h"
