@@ -1,9 +1,12 @@
+include Gemfile
+
 def puts_git(cmd)
     puts "git #{cmd} -h"
     menu
 end
 
 def menu
+    puts 'Main Menu'.colorize(:cyan)
     puts '1: Enter Git Command'
     puts '2: Exit'
     choice = gets.to_i
